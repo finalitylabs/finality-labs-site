@@ -57,16 +57,18 @@ class Team extends Component {
                         <p>Advisor</p>
                     </div>
                 </div>
-                <h2>Partnerships</h2>
-                <div id='Team' className='team'>
-                    <a href='https://spankchain.com/' rel="noopener noreferrer" target='_blank'>
-                        <img src={sc} alt ='' width='200px' /></a>
-                    <a href='https://district0x.io/' rel="noopener noreferrer" target='_blank'>
-                        <img src={dzx} alt ='' width='200px' /></a>
-                    <a href='https://decentraland.org/' rel="noopener noreferrer" target='_blank'>
-                        <img src={dl} alt ='' width='200px' /></a>
-                    <a href='https://www.axiomzen.co/' rel="noopener noreferrer" target='_blank'>
-                        <img src={az} alt ='' width='200px' /></a>
+                <div className='partners-outer'>
+                    <h2>Partnerships</h2>
+                    <div className='partners'>
+                        <a href='https://spankchain.com/' rel="noopener noreferrer" target='_blank'>
+                            <img src={sc} alt ='' width='200px' /></a>
+                        <a href='https://district0x.io/' rel="noopener noreferrer" target='_blank'>
+                            <img src={dzx} alt ='' width='200px' /></a>
+                        <a href='https://decentraland.org/' rel="noopener noreferrer" target='_blank'>
+                            <img src={dl} alt ='' width='200px' /></a>
+                        <a href='https://www.axiomzen.co/' rel="noopener noreferrer" target='_blank'>
+                            <img src={az} alt ='' width='200px' /></a>
+                    </div>
                 </div>
             </div>
         );

@@ -194,6 +194,8 @@ Colors
 }
 
 .team-outer {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   text-align: center;
   width: 100vw;
@@ -224,14 +226,33 @@ Colors
   margin-top: 100px;
   padding: 0;
   width: 100vw;
+ 
 
   
+}
+
+.partners {
+  
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding: 50px;
+  width: 100vw;
+
+}
+
+.partners-outer {
+  margin-top: 100px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-
   width: 150px;
   height: 150px;
 
