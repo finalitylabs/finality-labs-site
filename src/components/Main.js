@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import lab from '../assets/lab-apng.png'
 
 
 class Main extends Component {
@@ -11,7 +11,7 @@ class Main extends Component {
                 <p>Logo</p>
                 </div>
                 <div className='nav'>
-                
+                    <img src={lab}/>
                     
                 </div>
             </div>
