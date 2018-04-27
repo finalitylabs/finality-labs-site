@@ -10,6 +10,8 @@ class Team extends Component {
                     <div></div>
                     <div></div>
                     <div></div>
+                </div>
+                <div className='team'>
                     <div></div>
                     <div></div>
                     <div></div>
