@@ -10,8 +10,9 @@ class Main extends Component {
                 <div className='logo'>
                 <p>Logo</p>
                 </div>
+                <img src={lab} width="754" height="526"/>
                 <div className='nav'>
-                    <img src={lab}/>
+                    
                     
                 </div>
             </div>
