@@ -9,6 +9,7 @@ import Join from './components/Join';
 
 import $ from 'jquery';
 import { slide as Menu } from 'react-burger-menu';
+import Research from './components/Research';
 
 
 $(function() {
@@ -61,12 +62,14 @@ class App extends Component {
           width={'200px'}>
             <a onClick={() => this.closeMenu()} href='#Main'>Home</a>
             <a onClick={() => this.closeMenu()} href='#Mission'>Mission</a>
+            <a onClick={() => this.closeMenu()} href='#Research'>Research</a>
             <a onClick={() => this.closeMenu()} href='#Works'>Works</a>
             <a onClick={() => this.closeMenu()} href='#Team'>Team</a>
             <a onClick={() => this.closeMenu()} href='#Join'>Join</a>
         </Menu>
         <Main />
         <Mission />
+        <Research />
         <Works />
         <Team />
         <Join />

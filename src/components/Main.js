@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import logo from '../assets/Logos/FL_Logo.png';
+import lab from '../assets/lab-animation-apng.png';
 
 
 
@@ -8,11 +10,9 @@ class Main extends Component {
         return (
             <div id='Main'className='main'>
                 <div className='logo'>
-                <p>Logo</p>
+                    <img src={logo} alt='Finality-Labs-logo' width='150px'/>
                 </div>
-                <div className='nav'>
-                
-                    
+                <div>
                 </div>
             </div>
         );

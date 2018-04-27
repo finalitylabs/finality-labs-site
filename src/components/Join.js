@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import twitter from '../assets/twitter.png'
-import reddit from '../assets/reddit.png'
-import medium from '../assets/medium.png'
-import github from '../assets/github.png'
-import facebook from '../assets/facebook.png'
-import email from '../assets/email.png'
-import discord from '../assets/discord.png'
+import twitter from '../assets/Social/twitter.png'
+import reddit from '../assets/Social/reddit.png'
+import medium from '../assets/Social/medium.png'
+import github from '../assets/Social/github.png'
+import facebook from '../assets/Social/facebook.png'
+import email from '../assets/Social/email.png'
+import discord from '../assets/Social/discord.png'
 
 class Join extends Component {
     render() {

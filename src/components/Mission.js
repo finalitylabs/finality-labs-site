@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
+import mission from '../assets/Mission_Image.png'
 
 class Mission extends Component {
     render() {
         return (
             <div id='Mission' className='mission'>
                 <div>
-                    <h2>Mission</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h1>Mission</h1>
+                    <p>Finality Labs is a community of devs, modders, hackers, and gamers uniting to experiment with and create new applications of cryptographic systems. We build protocols, tools, games, and generally anything fun. 
+                    We imagine and practically implement immersive, expansive, and inclusive gaming experiences. We strive to coordinate those that are most invested in the systems they build and allow them to decide how it should be governed.</p>
                 </div>
                 <div>
-                    <h2>Image</h2>
+                    <img src={mission} alt='mission' width='100%'/>
                 </div>
             </div>
         );
