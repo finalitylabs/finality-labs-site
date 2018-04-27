@@ -9,11 +9,12 @@ class Main extends Component {
 
         return (
             <div id='Main'className='main'>
-                <img src={lab} alt='Finality-Labs-logo' width='754px' height='526px'/>
+                
                 <div className='logo'>
                     <img src={logo} alt='Finality-Labs-logo' width='150px'/>
                 </div>
-                
+
+                <img class='' src={lab} alt='Finality-Labs-logo' width='754px' height='526px'/>
                 
             </div>
         );

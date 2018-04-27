@@ -19,7 +19,7 @@ class Team extends Component {
                 <h1>Team</h1>
                 <div className='team'>
                     <div className='card'>
-                        <img src={nathan} class='image clip' width='300px' />
+                        <img src={nathan} class='image clip' width='150px' />
                         <h3>Nathan Ginnever</h3>
                         <p>Applied Cryptography</p>
                     </div>
@@ -52,7 +52,7 @@ class Team extends Component {
                         <p>Monsters Manufacturer</p>
                     </div>
                     <div className='card'>
-                        <img src={james} class='image clip' width='150px' />
+                        <img src={james} class='image clip' width='200px' />
                         <h3>James Young</h3>
                         <p>Advisor</p>
                     </div>

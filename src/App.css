@@ -221,19 +221,28 @@ Colors
   justify-content: space-around;
   flex-direction: row;
   box-sizing: border-box;
-  margin-top: 10px;
+  margin-top: 100px;
   padding: 0;
   width: 100vw;
 
   
 }
 
-.card div {
-  flex-shrink: 0;
+.card {
+  display: flex;
+  flex-direction: column;
+
   width: 150px;
   height: 150px;
-  border: 4px solid #3b1362;
-  border-radius: 50%;
+
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  margin: 0;
 }
 
 .clip {
@@ -243,9 +252,10 @@ Colors
 
 
 .join-outer {
+  position: relative;
   display: flex;
   justify-content: center;
-  padding: 0;
+  padding-top: 200px;
   width: 100vw;
 }
 
