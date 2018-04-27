@@ -5,6 +5,7 @@
   "homepage": "https://finalitylabs.co",
   "dependencies": {
     "gh-pages": "^1.1.0",
+    "graceful-fs": "^4.1.11",
     "gsap": "^1.20.4",
     "hoek": "^5.0.3",
     "jquery": "^3.3.1",
