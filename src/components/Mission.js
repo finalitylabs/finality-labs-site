@@ -9,10 +9,14 @@ class Mission extends Component {
                     <h1>Mission</h1>
                     <p>Finality Labs is a community of devs, modders, hackers, and gamers uniting to experiment with and create new applications of cryptographic systems. We build protocols, tools, games, and generally anything fun. 
                     We imagine and practically implement immersive, expansive, and inclusive gaming experiences. We strive to coordinate those that are most invested in the systems they build and allow them to decide how it should be governed.</p>
+
+                    <img src={mission} alt='mission' width='1440px'/>  
+                    <div className='fader'></div>
+
                 </div>
-                <div>
-                    <img src={mission} alt='mission' width='100%'/>
-                </div>
+                
+                
+                
             </div>
         );
     }

@@ -33,6 +33,10 @@ class App extends Component {
     this.state = {
       menuOpen: false,
     }
+
+    this.handleStateChange = this.handleStateChange.bind(this)
+    this.closeMenu = this.closeMenu.bind(this)
+    this.toggleMenu = this.toggleMenu.bind(this)
   }
 
   handleStateChange (state) {

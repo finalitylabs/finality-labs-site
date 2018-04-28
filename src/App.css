@@ -9,14 +9,8 @@ Colors
 
 */
 
-#App {
-  display: flex;
-  flex-direction: column;
-}
-
 .main {
-  display: flex;
-  flex-direction: row;
+  position: relative;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -30,25 +24,26 @@ Colors
 }
 
 .logo {
-  display: flex;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  margin-left: 4em;
-  margin-top: 5em;
+
+  position: absolute;
+  margin: 50px;
   height: 150px;
   width: 150px;
+  
 
+}
+
+.logo img {
+  width: 150px;
+  transition: all 400ms ease-in-out;
 }
 
 .lab {
   position: absolute;
-  left: 100%;
-  margin-left: -754px;
-  margin-top: 250px;
+  bottom: 0;
+  right: 0;
+  transition: all 300ms ease-in-out;
 }
-
 
 .menu a {
   text-decoration: none;
@@ -102,6 +97,7 @@ Colors
 
 /* Styling of overlay */
 .bm-overlay {
+  height: 100vh;
   background: rgba(0, 0, 0, 0.8);
 }
 
@@ -128,81 +124,106 @@ Colors
 } */
 
 .mission {
-  display: flex;
+  position: relative;
   box-sizing: border-box;
   margin: 0;
-  padding: 30px;
   width: 100vw;
   height: 100vh;
-
+  overflow: hidden;
 }
 
 .mission div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   margin: 50px;
-  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  width: 100%;
+
   
+}
+
+.mission img {
+  position: absolute;
+  left: 0;
+  top: -260px;
+  z-index: -1;
 }
 
 
 
-.mission p {
+.mission p, .mission h1 {
   text-align: left;
+  float: right;
+  width: 50%;
   margin: 0;
   padding: 20px;
-  font-size: 1.3em;
+  margin-right: 70px;
+}
+
+.fader {
+  position: absolute;
+  height: 40px;
+  width: 100vw;
+  bottom: -50px;
+  left: -50px;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(64,45,90) 100%);
 }
 
 .research {
   display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   width: 100vw;
   height: 100vh;
-
+  font-size: 1em;
 }
 
 .research h1 {
   text-align: center;
-  padding: 30px;
+  width: 100vw;
+  padding-top: 20px;
 }
 
 .research p {
-  text-align: left;
-  font-size: 1.3em;
+  width: 50vw;
+  margin: 40px;
 }
 
+
 .works {
-  display: flex;
-  box-sizing: border-box;
+  position: relative;
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
 }
 
-.works div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.works-content {
+  padding-top: 100px;
+}
+
+.works img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 800px;
+}
+
+.works h1, .works h2 {
+  width: 50vw;
   text-align: center;
-  margin: 50px;
-  width: 50%;
-  
+  padding-left: 40px;
 }
 
 .works p {
   text-align: left;
   margin: 0;
-  padding: 20px;
-  font-size: 1.3em;
+  padding-left: 40px;
+  width: 50vw;
 }
 
 .team-outer {
@@ -303,28 +324,73 @@ Colors
 /* Media Queries */
 
 @media only screen and (max-width: 768px){
+  
+  .logo img{
+    position: absolute;
+    top: 150px;
+    width: 300px;
+  }
+
+  .lab {
+    opacity: 0;
+  }
 
   .mission {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
 
-    flex-wrap: wrap;
+  .mission p {
+    width: 90vw;
+    margin: 0;
   }
 
   .mission div {
+    margin: 0;
     width: 100%;
-    
   }
 
-  .research {
-
-    flex-wrap: wrap;
+  .mission img{
+    position: absolute;
+    top: 230px;
+    left: -100px;
+    width: 700px;
   }
 
-  .works {
-    flex-wrap: wrap;
+  .fader {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: 0;
   }
 
-  .works div {
-    width: 100%;
+  .research p{
+    width: 90vw;
+  }
+
+  .works-content {
+    margin: 0;
+    padding: 0px;
+  }
+
+  .works h2 {
+    text-align: left;
+  }
+
+  .works p {
+    width: 90vw;
+  }
+
+  .works img {
+    float: right;
+    top: 0px;
+    right: -45px;
+    padding: 0;
+    margin: 0;
+    width: 300px;
   }
 
   .team div {
