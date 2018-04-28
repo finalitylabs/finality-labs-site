@@ -21,7 +21,6 @@ Colors
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
 }
 
 
@@ -42,7 +41,7 @@ Colors
 
 }
 
-.lab {
+.lab_bak {
   position: absolute;
   left: 100%;
   margin-left: -754px;
@@ -133,22 +132,7 @@ Colors
   margin: 0;
   padding: 30px;
   width: 100vw;
-  height: 100vh;
-
 }
-
-.mission div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 50px;
-  width: 50%;
-  
-}
-
-
 
 .mission p {
   text-align: left;
@@ -164,8 +148,16 @@ Colors
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
 
+}
+
+.research div, .mission div, .works div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
 }
 
 .research h1 {
@@ -184,18 +176,6 @@ Colors
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
-}
-
-.works div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 50px;
-  width: 50%;
-  
 }
 
 .works p {
@@ -211,7 +191,6 @@ Colors
   box-sizing: border-box;
   text-align: center;
   width: 100vw;
-  height: 100vh;
 
 }
 
@@ -227,8 +206,6 @@ Colors
 }
 
 .team {
-
-  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -238,11 +215,9 @@ Colors
   margin-top: 100px;
   padding: 0;
   width: 100vw;
-
 }
 
 .partners {
-  
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
