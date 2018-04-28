@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../assets/Logos/FL_Logo.png';
-import lab from '../assets/lab-apng.png';
+import lab from '../assets/lab.gif';
 
 
 

@@ -205,6 +205,7 @@ Colors
   padding: 0;
   width: 100vw;
   height: 100vh;
+  
 }
 
 .works-content {
@@ -213,22 +214,22 @@ Colors
 
 .works img {
   position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 700px;
+  right: 50px;
+  top: 100px;
+  width: 500px;
 }
 
-.works h1, .works h2 {
+.works-content h1,.works-content h2, .works-content h4 {
   width: 50vw;
   text-align: center;
   padding-left: 50px;
 }
 
-.works h2:nth-child(3){
+.works-content h4{
   color: #c19de5;
 }
 
-.works p {
+.works-content p {
   text-align: left;
   margin: 0;
   padding-left: 50px;
@@ -269,7 +270,7 @@ Colors
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
-  margin-top: 150px;
+  margin-top: 50px;
   padding: 0;
   width: 100vw;
 }
@@ -285,9 +286,11 @@ Colors
 
 }
 
+
+
 .card p:nth-child(3) {
   margin: 0px;
-  line-height: 0em;
+  line-height: 1em;
 }
 
 .clip {
@@ -336,10 +339,18 @@ Colors
 
 @media only screen and (max-width: 768px){
   
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  
   .logo img{
-    position: absolute;
-    top: 150px;
-    width: 300px;
+  
+    width: 200px;
   }
 
   .lab {
@@ -367,7 +378,7 @@ Colors
 
   .mission img{
     position: absolute;
-    top: 260px;
+    top: 170px;
     left: 0px;
     width: 768px;
   }
@@ -383,31 +394,46 @@ Colors
     width: 90vw;
   }
 
-  .works-content {
+  .works {
     margin: 0;
+    padding: 20px;
+  }
+
+  .works-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    left: 0px;
     padding: 0px;
   }
 
-  .works h2 {
+
+  .works-content h1,.works-content h2, .works-content h4 {
+    width: 50vw;
     text-align: left;
+    padding-left: 15px;
   }
 
-  .works p {
+  .works-content p {
     width: 90vw;
+    padding-left: 15px
+    
   }
 
   .works img {
     float: right;
-    top: 0px;
-    right: -45px;
+    top: 100px;
+    right: 50px;
     padding: 0;
     margin: 0;
-    width: 300px;
+    width: 150px;
   }
 
   .team-outer h1 {
     padding: 0;
-    margin: 0;
+    margin-top: 50px;
   }
 
   .team {
@@ -442,6 +468,11 @@ Colors
     margin-top: 0;
     width: 100px;
   }
+
+  .join-outer {
+    height: 100vh;
+  }
+
 
   .partners {
     flex-wrap: wrap;
