@@ -11,7 +11,7 @@ class Mission extends Component {
                     We imagine and practically implement immersive, expansive, and inclusive gaming experiences. We strive to coordinate those that are most invested in the systems they build and allow them to decide how it should be governed.</p>
 
                     <img src={mission} alt='mission' width='1440px'/>  
-                    <div className='fader'></div>
+
 
                 </div>
                 

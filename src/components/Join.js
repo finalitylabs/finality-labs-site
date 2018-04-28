@@ -19,49 +19,44 @@ class Join extends Component {
                     <h1>Partnerships</h1>
                     <div className='partners'>
                         <a href='https://spankchain.com/' rel="noopener noreferrer" target='_blank'>
-                            <img src={sc} alt ='' width='200px' /></a>
+                            <img src={sc} alt ='' width='150px' /></a>
                         <a href='https://district0x.io/' rel="noopener noreferrer" target='_blank'>
-                            <img src={dzx} alt ='' width='200px' /></a>
+                            <img src={dzx} alt ='' width='150px' /></a>
                         <a href='https://decentraland.org/' rel="noopener noreferrer" target='_blank'>
-                            <img src={dl} alt ='' width='200px' /></a>
+                            <img src={dl} alt ='' width='150px' /></a>
                         <a href='https://www.axiomzen.co/' rel="noopener noreferrer" target='_blank'>
-                            <img src={az} alt ='' width='200px' /></a>
+                            <img src={az} alt ='' width='150px' /></a>
                     </div>
                 </div>
                 <div className='join'>
                     <div>
-                        <a href='https://twitter.com/finalitylabs' rel="noopener noreferrer" target='_blank'>
-                            <img src={twitter} alt='' width='50px'/>
-                        </a>
-                    </div>
-                    <div>
                         <a href='mailto:team@finalitylabs.co'>
-                            <img src={email} alt='' width='60px'/>
-                        </a>
-                    </div>
-                    <div>
-                        <a href='https://github.com/finalitylabs' rel="noopener noreferrer" target='_blank'>
-                            <img src={github} alt='' width='50px'/>
-                        </a>
-                    </div>
-                    <div>
-                        <a href='https://medium.com/finality-labs' rel="noopener noreferrer" target='_blank'>
-                            <img src={medium} alt='' width='50px'/>
+                            <img src={email} alt='' width='45px'/>
                         </a>
                     </div>
                     <div>
                         <a href='https://discord.gg/sT9sbba' rel="noopener noreferrer" target='_blank'>
-                            <img src={discord} alt='' width='50px'/>
+                            <img src={discord} alt='' width='37.5px'/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href='https://github.com/finalitylabs' rel="noopener noreferrer" target='_blank'>
+                            <img src={github} alt='' width='37.5px'/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href='https://medium.com/finality-labs' rel="noopener noreferrer" target='_blank'>
+                            <img src={medium} alt='' width='37.5px'/>
                         </a>
                     </div>
                     <div>
                         <a href='#'>
-                            <img src={facebook} alt='' width='60px'/>
+                            <img src={reddit} alt='' width='37.5px'/>
                         </a>
                     </div>
                     <div>
-                        <a href='#'>
-                            <img src={reddit} alt='' width='50px'/>
+                        <a href='https://twitter.com/finalitylabs' rel="noopener noreferrer" target='_blank'>
+                            <img src={twitter} alt='' width='37.5px'/>
                         </a>
                     </div>
                 </div>
