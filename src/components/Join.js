@@ -30,32 +30,32 @@ class Join extends Component {
                 <div className='join'>
                     <div>
                         <a href='mailto:team@finalitylabs.co'>
-                            <img src={email} alt='' width='45px'/>
+                            <img src={email} alt='' width='33.75px'/>
                         </a>
                     </div>
                     <div>
                         <a href='https://discord.gg/sT9sbba' rel="noopener noreferrer" target='_blank'>
-                            <img src={discord} alt='' width='37.5px'/>
+                            <img src={discord} alt='' width='28.125px'/>
                         </a>
                     </div>
                     <div>
                         <a href='https://github.com/finalitylabs' rel="noopener noreferrer" target='_blank'>
-                            <img src={github} alt='' width='37.5px'/>
+                            <img src={github} alt='' width='28.125px'/>
                         </a>
                     </div>
                     <div>
                         <a href='https://medium.com/finality-labs' rel="noopener noreferrer" target='_blank'>
-                            <img src={medium} alt='' width='37.5px'/>
+                            <img src={medium} alt='' width='28.125px'/>
                         </a>
                     </div>
                     <div>
                         <a href='#'>
-                            <img src={reddit} alt='' width='37.5px'/>
+                            <img src={reddit} alt='' width='28.125px'/>
                         </a>
                     </div>
                     <div>
                         <a href='https://twitter.com/finalitylabs' rel="noopener noreferrer" target='_blank'>
-                            <img src={twitter} alt='' width='37.5px'/>
+                            <img src={twitter} alt='' width='28.125px'/>
                         </a>
                     </div>
                 </div>

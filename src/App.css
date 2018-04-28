@@ -57,8 +57,8 @@ Colors
   position: fixed;
   width: 36px;
   height: 30px;
-  right: 36px;
-  top: 36px;
+  right: 50px;
+  top: 50px;
 }
 
 /* Color/shape of burger icon bars */
@@ -194,7 +194,8 @@ Colors
 
 .research p {
   width: 50vw;
-  margin: 20px;
+  margin: 0;
+  padding: 15px;
 }
 
 
@@ -220,7 +221,7 @@ Colors
 .works h1, .works h2 {
   width: 50vw;
   text-align: center;
-  padding-left: 40px;
+  padding-left: 50px;
 }
 
 .works h2:nth-child(3){
@@ -230,7 +231,7 @@ Colors
 .works p {
   text-align: left;
   margin: 0;
-  padding-left: 40px;
+  padding-left: 50px;
   width: 50vw;
 }
 
