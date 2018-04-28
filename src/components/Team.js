@@ -19,22 +19,22 @@ class Team extends Component {
                 <h1>Team</h1>
                 <div className='team'>
                     <div className='card'>
-                        <img src={nathan} class='image clip' width='150px' />
+                        <img src={nathan} className='image clip' width='150px' />
                         <h3>Nathan Ginnever</h3>
                         <p>Applied Cryptography</p>
                     </div>
                     <div className='card'>
-                        <img src={tiffany} class='image clip' width='150px' />
+                        <img src={tiffany} className='image clip' width='150px' />
                         <h3>Tiffany Ou</h3>
                         <p>Cat Herder</p>
                     </div>
                     <div className='card'>
-                        <img src={jonathan} class='image clip' width='150px' />
+                        <img src={jonathan} className='image clip' width='150px' />
                         <h3>Jonathan Dunlap</h3>
                         <p>Lead Optimist Alchemist</p>
                     </div>
                     <div className='card'>
-                        <img src={will} class='image clip' width='150px' />
+                        <img src={will} className='image clip' width='150px' />
                         <h3>Will Vatcher</h3>
                         <p>Web Laborer</p>
                     </div>
@@ -42,17 +42,17 @@ class Team extends Component {
                 </div>
                 <div className='team'>
                     <div className='card'>
-                        <img src={adrian} class='image clip' width='150px' />
+                        <img src={adrian} className='image clip' width='150px' />
                         <h3>Adrian Karpenkopf</h3>
                         <p>Master of Puppets</p>
                     </div>
                     <div className='card'>
-                        <img src={fede} class='image clip' width='150px' />
+                        <img src={fede} className='image clip' width='150px' />
                         <h3>Federico Balart</h3>
                         <p>Monsters Manufacturer</p>
                     </div>
                     <div className='card'>
-                        <img src={james} class='image clip' width='200px' />
+                        <img src={james} className='image clip' width='200px' />
                         <h3>James Young</h3>
                         <p>Advisor</p>
                     </div>

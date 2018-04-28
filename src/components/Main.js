@@ -14,7 +14,7 @@ class Main extends Component {
                     <img src={logo} alt='Finality-Labs-logo' width='150px'/>
                 </div>
 
-                <img class='' src={lab} alt='Finality-Labs-logo' width='754px' height='526px'/>
+                <img className='lab' src={lab} alt='Finality-Labs-logo' width='754px' height='526px'/>
                 
             </div>
         );
