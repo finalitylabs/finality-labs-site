@@ -210,7 +210,7 @@ Colors
   position: absolute;
   right: 0px;
   top: 0px;
-  width: 800px;
+  width: 700px;
 }
 
 .works h1, .works h2 {
@@ -233,7 +233,6 @@ Colors
   text-align: center;
   width: 100vw;
   height: 100vh;
-
 }
 
 .team-outer h1 {
@@ -248,38 +247,25 @@ Colors
 }
 
 .team {
-
-  box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: space-around;
-  flex-direction: row;
   box-sizing: border-box;
-  margin-top: 100px;
+  margin-top: 0px;
   padding: 0;
   width: 100vw;
 
 }
 
-.partners {
-  
-  box-sizing: border-box;
+.team-2 {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: space-around;
-  flex-direction: row;
   box-sizing: border-box;
-  margin-top: 50px;
-  padding: 50px;
+  margin-top: 150px;
+  padding: 0;
   width: 100vw;
-
 }
 
-.partners-outer {
-  margin-top: 100px;
-}
+
 
 .card {
   display: flex;
@@ -302,12 +288,29 @@ Colors
   clip-path: circle(75px);  
 }
 
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.partners-outer {
+  text-align: center;
+}
+
+.partners-outer h1{
+  padding: 40px;
+}
 
 .join-outer {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  padding-top: 200px;
   width: 100vw;
 }
 
@@ -355,9 +358,9 @@ Colors
 
   .mission img{
     position: absolute;
-    top: 230px;
-    left: -100px;
-    width: 700px;
+    top: 260px;
+    left: 0px;
+    width: 768px;
   }
 
   .fader {
@@ -393,10 +396,46 @@ Colors
     width: 300px;
   }
 
+  .team-outer h1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .team {
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
   .team div {
     transition: all 300ms ease-in-out;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .team-2 {
+    text-align: left;
+    margin-top: 200px;
+  }
+
+  .clip {
+  -webkit-clip-path: circle(40px);
+  clip-path: circle(40px);  
+  }
+
+  .card img {
+
+    flex-wrap: wrap;
+    padding-top: 0;
+    margin-top: 0;
+    width: 80px;
+  }
+
+  .partners {
+    flex-wrap: wrap;
   }
 
 
