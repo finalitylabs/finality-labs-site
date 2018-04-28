@@ -3,7 +3,6 @@ import twitter from '../assets/Social/twitter.png'
 import reddit from '../assets/Social/reddit.png'
 import medium from '../assets/Social/medium.png'
 import github from '../assets/Social/github.png'
-import facebook from '../assets/Social/facebook.png'
 import email from '../assets/Social/email.png'
 import discord from '../assets/Social/discord.png'
 import sc from '../assets/Partners/SpankChain_Logo.png';
