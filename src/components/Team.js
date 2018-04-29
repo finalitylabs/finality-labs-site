@@ -22,7 +22,7 @@ class Team extends Component {
                     <div className='card'>
                         <img src={james} className='image clip' width='150px' />
                         <p><strong>James Young</strong></p>
-                        <p>Advisor</p>
+                        <p>Channel Manager</p>
                     </div>
                     <div className='card'>
                         <img src={jonathan} className='image clip' width='150px' />

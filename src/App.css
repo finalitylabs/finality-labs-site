@@ -202,6 +202,7 @@ Colors
 .works {
   position: relative;
   margin: 0;
+  margin-top: 40px;
   padding: 0;
   width: 100vw;
   height: 100vh;
@@ -212,11 +213,18 @@ Colors
   padding-top: 100px;
 }
 
-.works img {
+.ckba-logo-outer {
+
   position: absolute;
-  right: 50px;
-  top: 100px;
-  width: 500px;
+  right: 0px;
+  top: 50px;
+  width: 40%;
+  padding: 0;
+  margin-right: 40px;
+}
+
+.works img {
+  width: 110%;
 }
 
 .works-content h1,.works-content h2, .works-content h4 {
@@ -365,6 +373,12 @@ Colors
     padding: 0;
   }
 
+  .mission h1 {
+    float: left;
+    text-align: left;
+    padding-left: 25px;
+  }
+
   .mission p {
     width: 90vw;
     margin: 0;
@@ -422,13 +436,17 @@ Colors
     
   }
 
-  .works img {
+  .ckba-logo-outer {
+
     float: right;
-    top: 100px;
+    top: 40px;
     right: 50px;
     padding: 0;
     margin: 0;
-    width: 150px;
+    width: 200px;
+  }
+
+  .works img {
   }
 
   .team-outer h1 {
