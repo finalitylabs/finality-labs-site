@@ -29,7 +29,7 @@ Colors
   margin: 50px;
   height: 150px;
   width: 150px;
-  
+  z-index: 10;
 
 }
 
@@ -42,7 +42,7 @@ Colors
   position: absolute;
   bottom: 0;
   right: 0;
-  transition: all 300ms ease-in-out;
+  
 }
 
 .menu a {
@@ -251,6 +251,7 @@ Colors
   text-align: center;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 .team-outer h1 {
@@ -346,23 +347,26 @@ Colors
 /* Media Queries */
 
 @media only screen and (max-width: 768px){
+
+
   
   .logo {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     margin: 0;
   }
   
   .logo img{
   
-    width: 200px;
+    width: 150px;
   }
 
   .lab {
-    opacity: 0;
+    width: 100vw;
+    height: auto;
   }
 
   .mission {
