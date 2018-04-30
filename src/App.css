@@ -178,7 +178,7 @@ Colors
   justify-content: center;
   position: relative;
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   font-size: 1em;
   background: #6b56d0;
   box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.3);
@@ -189,13 +189,16 @@ Colors
 .research h1 {
   text-align: center;
   width: 100vw;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  margin-top: 30px;
   
 }
 
 .research p {
   width: 50vw;
   margin: 0;
-  padding: 15px;
+  padding: 39px;
 }
 
 
@@ -309,7 +312,7 @@ Colors
 .card p:nth-child(3) {
   margin-top: 0px;
   padding: 0;
-  line-height: 1em;
+  line-height: 24px;
 }
 
 .clip {
@@ -457,8 +460,6 @@ Colors
     width: 200px;
   }
 
-  .works img {
-  }
 
   .team-outer h1 {
     padding: 0;
@@ -496,6 +497,11 @@ Colors
     padding-top: 0;
     margin-top: 0;
     width: 100px;
+  }
+
+  .card p {
+    text-align: center;
+
   }
 
   .join-outer {
