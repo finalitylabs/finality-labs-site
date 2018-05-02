@@ -17,6 +17,14 @@ class Works extends Component {
                 <div className='ckba-logo-outer'>
                     <img src={logo} alt='CryptoKitties Logo' />
                 </div>
+                <div className='works-content'>
+                    <h4>RPG</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra tellus nec quam tincidunt imperdiet. Vestibulum consequat, nisl a pulvinar interdum, massa lacus maximus augue, at feugiat odio tellus a urna. Mauris elementum, sem sit amet vulputate cursus, purus ipsum consequat nibh, convallis fermentum lorem ante sed elit. Sed eleifend non urna ac feugiat. Etiam ac pretium nibh. In efficitur magna vel volutpat luctus. Fusce vulputate tellus a tortor vulputate pharetra. Pellentesque dictum enim ut molestie mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer euismod ante eu porttitor tempor. Nunc ut vestibulum mauris. Ut molestie convallis dui ac efficitur. Praesent arcu justo, pretium eget feugiat et, fringilla fermentum ex. Vivamus a sapien justo. Pellentesque eu malesuada sem.</p>
+                </div>
+                <div className='works-content'>
+                    <h4>Project [CODENAME]</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra tellus nec quam tincidunt imperdiet. Vestibulum consequat, nisl a pulvinar interdum, massa lacus maximus augue, at feugiat odio tellus a urna. Mauris elementum, sem sit amet vulputate cursus, purus ipsum consequat nibh, convallis fermentum lorem ante sed elit. Sed eleifend non urna ac feugiat. Etiam ac pretium nibh. In efficitur magna vel volutpat luctus. Fusce vulputate tellus a tortor vulputate pharetra. Pellentesque dictum enim ut molestie mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer euismod ante eu porttitor tempor. Nunc ut vestibulum mauris. Ut molestie convallis dui ac efficitur. Praesent arcu justo, pretium eget feugiat et, fringilla fermentum ex. Vivamus a sapien justo. Pellentesque eu malesuada sem.</p>
+                </div>
             </div>
         );
     }
