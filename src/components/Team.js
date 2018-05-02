@@ -15,22 +15,22 @@ class Team extends Component {
                 <h1>Team</h1>
                 <div className='team'>
                     <div className='card'>
-                        <img src={nathan} className='image clip' width='150px' />
+                        <img src={nathan} className='image clip' width='150px' alt='Nathan Ginnever' />
                         <p><strong>Nathan Ginnever</strong></p>
                         <p>Applied Cryptography</p>
                     </div>
                     <div className='card'>
-                        <img src={james} className='image clip' width='150px' />
+                        <img src={james} className='image clip' width='150px' alt='James Young'/>
                         <p><strong>James Young</strong></p>
                         <p>Channel Manager</p>
                     </div>
                     <div className='card'>
-                        <img src={jonathan} className='image clip' width='150px' />
+                        <img src={jonathan} className='image clip' width='150px' alt='Jonathan Dunlap'/>
                         <p><strong>Jonathan Dunlap</strong></p>
                         <p>Lead Optimist Alchemist</p>
                     </div>
                     <div className='card'>
-                        <img src={will} className='image clip' width='150px' />
+                        <img src={will} className='image clip' width='150px' alt='Will Vatcher'/>
                         <p><strong>Will Vatcher</strong></p>
                         <p>Web Slinger</p>
                     </div>
@@ -38,17 +38,17 @@ class Team extends Component {
                 </div>
                 <div className='team-2'>
                     <div className='card'>
-                        <img src={adrian} className='image clip' width='150px' />
+                        <img src={adrian} className='image clip' width='150px' alt='Adrian Karpenkopf'/>
                         <p><strong>Adrian Karpenkopf</strong></p>
                         <p>Monster Manufacturer</p>
                     </div>
                     <div className='card'>
-                        <img src={fede} className='image clip' width='150px' />
+                        <img src={fede} className='image clip' width='150px' alt='Federico Balart'/>
                         <p><strong>Federico Balart</strong></p>
                         <p>Master of Puppets</p>
                     </div>
                     <div className='card'>
-                        <img src={tiffany} className='image clip' width='150px' />
+                        <img src={tiffany} className='image clip' width='150px' alt='Tiffany Ou'/>
                         <p><strong>Tiffany Ou</strong></p>
                         <p>Cat Herder</p>
                     </div>

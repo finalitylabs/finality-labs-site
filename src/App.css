@@ -15,7 +15,7 @@ Colors
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 
@@ -255,8 +255,12 @@ Colors
   box-sizing: border-box;
   text-align: center;
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
+  overflow-y: scroll;
+  background: #6b56d0;
+  box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.3);
+  z-index: 2;
+
 }
 
 .team-outer h1 {
@@ -423,8 +427,10 @@ Colors
   }
 
   .works {
+    display: flex;
+    align-items: center;
     margin: 0;
-    padding: 20px;
+    padding: 0;
   }
 
   .works-content {
@@ -453,7 +459,7 @@ Colors
   .ckba-logo-outer {
 
     float: right;
-    top: 40px;
+    top: 120px;
     right: 50px;
     padding: 0;
     margin: 0;
@@ -514,4 +520,63 @@ Colors
   }
 
 
+}
+
+@media only screen and (max-width: 450px) {
+  .mission{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mission img {
+    display: none;
+  }
+
+  .research h1{
+    width: 90vw;
+    text-align: left;
+  }
+
+  .works {
+    display: flex;
+    align-items: center;
+  }
+
+  .works img {
+    display: none;
+  }
+
+  .partners {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .partners a {
+    width: 100vw;
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .lab {
+    display: none;
+  }
+
+  .logo {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .works {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
 }
