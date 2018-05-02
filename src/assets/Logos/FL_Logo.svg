@@ -1,0 +1,27 @@
+ <div id='outer'> 
+  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+    <defs>
+      <style>
+        .purp1, 
+        .purp2, 
+        .purp3{
+          fill:#675ca7;
+          }
+        .teal1,
+        .teal2, 
+        .teal3{
+          fill:#33bcb7;
+          }
+      </style>
+      
+    </defs>
+    <title>FL_Logo_NoText_NoPadding</title>
+    <polygon class="purp1" points="34.83 15.65 11.6 15.65 23.23 31.32 23.25 31.3 34.84 15.67 34.83 15.65"/>
+    <polygon class="teal1" points="23.21 0 23.22 0.01 11.62 15.64 11.62 15.65 34.83 15.65 132.39 15.65 144 0 23.21 0"/>
+    <polygon class="teal3" points="23.23 62.63 0 62.63 48.77 128.35 60.38 144 83.61 144 23.23 62.63"/>
+    <polygon class="purp2" points="83.61 81.39 46.46 31.32 34.84 46.98 71.99 97.04 83.61 81.39"/>
+    <polygon class="teal2" points="109.16 46.96 120.77 31.3 46.46 31.3 34.84 46.98 81.31 46.96 109.16 46.96"/>
+    <polygon class="purp3" points="95.21 97.05 71.99 128.35 83.61 144 118.45 97.04 95.21 97.05"/>
+   
+   </svg>
+</div>
