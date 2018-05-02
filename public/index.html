@@ -20,9 +20,12 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Finality Labs</title>
-    <!--<script type='text/javascript'>
-      window.location = 'https://finalitylabs.io/'
-    </script>-->
+    <script type='text/javascript'>
+      () => {
+        if (/github.io/.test(window.location.href))
+          window.location = 'https://finalitylabs.io/'
+      }
+    </script>
   </head>
   <body>
     <noscript>
