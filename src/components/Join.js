@@ -23,8 +23,6 @@ class Join extends Component {
                             <img src={dzx} alt ='' width='150px' /></a>
                         <a href='https://decentraland.org/' rel="noopener noreferrer" target='_blank'>
                             <img src={dl} alt ='' width='150px' /></a>
-                        <a href='https://www.axiomzen.co/' rel="noopener noreferrer" target='_blank'>
-                            <img src={az} alt ='' width='150px' /></a>
                     </div>
                 </div>
                 <div className='join'>
