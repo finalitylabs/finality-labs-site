@@ -588,7 +588,7 @@ Colors
   }
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 630px) {
   .lab {
     display: none;
   }
