@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import { AppStyled } from './App.style'
 
+import Loader from './components/Loader';
 import Main from './components/Main';
 import Mission from './components/Mission';
 import Works from './components/Works';
@@ -32,11 +34,16 @@ class App extends Component {
     super(props);
     this.state = {
       menuOpen: false,
+      loading: true,
     }
 
     this.handleStateChange = this.handleStateChange.bind(this)
     this.closeMenu = this.closeMenu.bind(this)
     this.toggleMenu = this.toggleMenu.bind(this)
+  }
+
+  componentDidMount(){
+    setTimeout(() => this.setState({loading: false}), 3500)
   }
 
   handleStateChange (state) {
@@ -56,8 +63,15 @@ class App extends Component {
     this.setState({menuOpen: !this.state.menuOpen})
   }
   render(){
+    const { loading } = this.state;
+      
+
+      if(loading){
+        return <Loader className='loader'/>
+      }
+
     return (
-      <div id='App'>
+      <AppStyled>
         <Menu 
           isOpen={this.state.menuOpen}
           onStateChange={(state) => this.handleStateChange(state)}
@@ -77,7 +91,7 @@ class App extends Component {
         <Works />
         <Team />
         <Join />
-      </div>
+      </AppStyled>
     );
   }
 }
