@@ -230,9 +230,7 @@ Colors
   margin-top: 40px;
   padding: 0;
   width: 100vw;
-  height: 100vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  min-height: 100%;
   
 }
 
@@ -285,9 +283,7 @@ Colors
   box-sizing: border-box;
   text-align: center;
   width: 100vw;
-  min-height: 100vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  height: 100%;
   background: #6b56d0;
   box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.3);
   z-index: 2;
@@ -320,6 +316,7 @@ Colors
   justify-content: space-around;
   box-sizing: border-box;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 0;
   width: 100vw;
 }
@@ -458,15 +455,16 @@ Colors
   }
 
   .works {
-    display: flex;
+    
     align-items: center;
     margin: 0;
     padding: 0;
   }
 
   .works-content {
-    position: absolute;
+   
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: left;
     justify-content: left;
@@ -483,6 +481,7 @@ Colors
 
   .works-content p {
     width: 90vw;
+    height: 100%;
     padding-left: 15px
     
   }
@@ -542,7 +541,7 @@ Colors
   }
 
   .join-outer {
-    height: 100vh;
+    height: 100%;
   }
 
 
@@ -571,7 +570,7 @@ Colors
   }
 
   .works {
-    display: flex;
+   
     align-items: center;
   }
 
@@ -609,5 +608,13 @@ Colors
     padding: 0;
     overflow-y: scroll;
     overflow-x: hidden;
+  }
+
+  .team-outer {
+    height: 100%;
+  }
+
+  .team-2 {
+    padding-bottom: 30px;
   }
 }
