@@ -5649,10 +5649,6 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-animations@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-animations/-/react-animations-1.0.0.tgz#d96222920dfeabec8984d9b2ef2c5a5aadb40f06"
-
 react-burger-menu@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/react-burger-menu/-/react-burger-menu-2.4.2.tgz#d45380647f8afc81a03907a7608202bad8c326c5"
@@ -5702,6 +5698,12 @@ react-error-overlay@^4.0.0:
 react-is@^16.3.1:
   version "16.3.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.3.2.tgz#f4d3d0e2f5fbb6ac46450641eb2e25bf05d36b22"
+
+react-reveal@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-reveal/-/react-reveal-1.2.1.tgz#b82b04603a095b020720016fa5cc25392fd61d81"
+  dependencies:
+    prop-types "^15.5.10"
 
 react-scripts@1.1.4:
   version "1.1.4"
