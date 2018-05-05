@@ -13,7 +13,29 @@ class Research extends Component {
                 <div>
                 <h1>Research</h1>
                 
-                <p>Gaming on the blockchain will not work without immediate solutions to how these systems will be run in a cost-effective and decentralized way. A core component of Finality Labs is the research and development done into scaling Ethereum and other blockchain ledgers. Finality Labs is collaborating with SpankChain on their generalized-state-channels implementation to facilitate cheap channel instantiation, state transfers, and upgrade paths for both the SpankChain camsite and a Battle Arena while an RPG in the works will explore an application-specific plasma chain.</p>
+                <p>Gaming on the blockchain will not work without immediate solutions to how these systems will be run in a cost-effective and decentralized way. A core component of Finality Labs is the research and development done into scaling Ethereum and other blockchain ledgers.</p>
+                </div>
+                </Fade>
+                <Fade
+                    top
+                    duration={500}
+                    distance='100px'
+                >
+                <div>
+                <h4>General State Channels</h4>
+                
+                <p>Finality Labs is collaborating with SpankChain on their generalized-state-channels implementation to facilitate cheap channel instantiation, state transfers, and channel upgrade paths for both the SpankChain camsite and a battle arena.</p>
+                </div>
+                </Fade>
+                <Fade
+                    top
+                    duration={500}
+                    distance='100px'
+                >
+                <div>
+                <h4>Plasma</h4>
+                
+                <p>We are prototyping an RPG that will explore an application-specific plasma chain. This requires non-UTXO based state challenges to allow exits to a parent chain. </p>
                 </div>
                 </Fade>
                 

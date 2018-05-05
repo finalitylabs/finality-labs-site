@@ -18,18 +18,17 @@ class Works extends Component {
                     
                 </div>
                 </Fade>
-                <Fade right
-                      duration={500}
-                      distance='100px'
-                    >
-                </Fade>
                 <Fade left
                       duration={500}
                       distance='100px'>
                 <div className='works-content'>
-                    <h4>RPG</h4>
-                    <p>State-channels are good for state where consensus can be unanimously signed off on by the participants of the battle. However it might be nice to allow something like a level up system from the heroes battles. This would require a mechanism to enforce rules on the battle games such that no advantage can be gained by introducing state from the battle back into the arena. We are actively researching RPG style games that may sit on a Plasma chain that enforces rules that keep players honest. More to come on this soon.</p>
-                </div>
+                      <h4>RPG</h4>
+                      <p>State-channels are good for state where consensus can be unanimously signed off on by the participants of the battle. However it might be nice to allow something like a level up system from the heroes battles. This would require a mechanism to enforce rules on the battle games such that no advantage can be gained by introducing state from the battle back into the arena. We are actively researching RPG style games that may sit on a Plasma chain that enforces rules that keep players honest. More to come on this soon.</p>
+                  </div>
+                </Fade>
+                <Fade left
+                      duration={500}
+                      distance='100px'>
                 <div className='works-content'>
                     <h4>Project [CODENAME]</h4>
                     <p>In collaboration with Decentraland, we will jointly build on the metaverse by respecting land units already built in decentraland. This allows for a really interesting collaboration idea we have with DCL and our RPG games we are working on. More on this to be announced later!</p>

@@ -204,9 +204,13 @@ Colors
   
 }
 
-.research p, .research h1 {
+.research p, .research h1, .research h4 {
   margin: 0;
   padding: 15px;
+}
+
+.research p {
+  margin-bottom: 60px;
 }
 
 
@@ -225,7 +229,7 @@ Colors
 }
 
 .works-content {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .works-content:first-child {
