@@ -4,7 +4,7 @@ This is the official repository for the Finality Labs main site.
 
 ## Description
 
-This site was bootstrapped with create-react-app and 
+This site was bootstrapped with create-react-app.
 
 ## Getting Started
 
@@ -31,4 +31,21 @@ yarn start
 npm run start
 ```
 Open the directory up in your favorite IDE and open the src folder to start editing. Happy Hacking!
+
+## Pushing
+
+Make all commits and push to Github.
+
+## Deploy
+
+Using npm or yarn, simply run ...
+Since we are using Github Pages, only 10 deploys per hour will be processed.
+
+```
+$ npm run deploy 
+```
+or
+```
+$ yarn deploy
+```
 

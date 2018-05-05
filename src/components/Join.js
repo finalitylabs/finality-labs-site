@@ -15,7 +15,7 @@ class Join extends Component {
         return (
             <div id='Join' className='join-outer'>
                 <div className='partners-outer'>
-                    <h1>Partnerships</h1>
+                    <h1>Our Supporters</h1>
                     <div className='partners'>
                         <a href='https://spankchain.com/' rel="noopener noreferrer" target='_blank'>
                             <img src={sc} alt ='' width='150px' /></a>
