@@ -64,10 +64,10 @@ class App extends Component {
   }
   render(){
     const { loading } = this.state;
-      
+    
 
       if(loading){
-        return <Loader className='loader'/>
+        return <Loader className='loader' />
       }
 
     return (

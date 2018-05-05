@@ -6,8 +6,8 @@ import github from '../assets/Social/github.png'
 import email from '../assets/Social/email.png'
 import discord from '../assets/Social/discord.png'
 import sc from '../assets/Partners/SpankChain_Logo.png';
-import dzx from '../assets/Partners/district0X_Logo.png';
-import dl from '../assets/Partners/Decentraland_Logo.png';
+import dzx from '../assets/Partners/district0X_Logo-white.png';
+import dl from '../assets/Partners/Decentraland_Logo-white.png';
 
 
 class Join extends Component {

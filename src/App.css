@@ -20,15 +20,17 @@ Colors
 }
 
 .intro-outer{
+
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  margin-top: -40px;
 }
 
 .intro-outer svg {
-  width: 200px;
+  width: 300px;
 }
 
 .main {
@@ -162,7 +164,7 @@ Colors
 .mission div {
 
   width: 100vw;
-  text-align: center;
+  text-align: left;
   margin: 50px;
   width: 50vw;
   
@@ -184,27 +186,25 @@ Colors
   align-items: center;
   justify-content: center;
   position: relative;
+  box-sizing: border-box;
+  margin: 0;
   width: 100vw;
   height: 100vh;
-  font-size: 1em;
   background: #6b56d0;
  
   z-index: 2;
   
 }
 
-.research h1 {
-  text-align: center;
+.research div {
   width: 100vw;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  padding: 15px;
+  text-align: left;
+  margin: 50px;
+  width: 50vw;
   
 }
 
-.research p {
-  width: 50vw;
-  margin: 0;
+.research p, .research h1 {
   padding: 15px;
 }
 
@@ -260,7 +260,6 @@ Colors
   width: 100vw;
   height: 100%;
   background: #6b56d0;
-  box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.3);
   z-index: 2;
 
 }
@@ -392,14 +391,14 @@ Colors
 
   .mission {
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     margin: 0;
     padding: 0;
   }
 
   .mission p, .mission h1 {
-    text-align: center;
+    text-align: left;
     
     width: 90vw;
     margin: 0;
@@ -413,21 +412,22 @@ Colors
   }
 
   .mission img{
-    position: absolute;
-    top: 170px;
-    left: 0px;
-    width: 768px;
+    vertical-align: bottom;
+    width: 100vh;
   }
 
-  .fader {
+  .research {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
-    bottom: 0;
-    left: 0;
   }
+  
 
-  .research p{
+  .research div{
     width: 90vw;
+    margin: 0;
   }
 
   .works {
