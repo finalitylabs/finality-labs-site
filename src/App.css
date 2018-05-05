@@ -199,12 +199,13 @@ Colors
 .research div {
   width: 100vw;
   text-align: left;
-  margin: 50px;
+  
   width: 50vw;
   
 }
 
 .research p, .research h1 {
+  margin: 0;
   padding: 15px;
 }
 
@@ -397,18 +398,22 @@ Colors
     padding: 0;
   }
 
+ 
+
   .mission p, .mission h1 {
     text-align: left;
-    
-    width: 90vw;
-    margin: 0;
-    
-  
+    width: 87vw;
+    margin:0;
+    margin-right: 0;
   }
 
   .mission div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    width: 100%;
+    width: 100vw;
   }
 
   .mission img{

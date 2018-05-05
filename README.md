@@ -32,15 +32,3 @@ npm run start
 ```
 Open the directory up in your favorite IDE and open the src folder to start editing. Happy Hacking!
 
-## Authors
-
-Will Vatcher
-
-Tiffany Ou
-
-Jonathan Dunlap
-
-## Acknowledgments
-
-Much inspiration from our fearless leader Nathan Ginnever.
-Illustrations coming soon provided by Fede and Adrian
