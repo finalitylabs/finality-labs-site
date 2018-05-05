@@ -1,41 +1,38 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import logo from '../assets/Logos/ckba-logo.png';
+
 
 class Works extends Component {
     render() {
         return (
             <div id='Works' className='works'>
                 <Fade left
-                      duration='500'
+                      duration={500}
                       distance='100px'>
                 <div className='works-content'>
                     <h1>Development</h1>
                     <h2>Games</h2>
-                    <h4>CRYPTOKITTIES BATTLE ARENA</h4>
+                    <h4>Hero Fighter (Turn-based State-channel game)</h4>
                     
-                    <p>CryptoKitties Battle Arena (CKBA) is a turn-style based fighting system that allows you to deposit your favorite CryptoKitties into a solidity contract called "The Arena". The Arena maintains the total state of all kitteh fighting stats. Upon deposit, the genetic sequence of the CryptoKitty is read from their ERC721 object to determine which genetic sequence equals higher or lower base power ratings that impact the overall kitty stats like HP and DP. To engage in battle, two parties will break away into a state-channel to play out a turn-style fighting game. The outcome of the channel fight is ultimately settled back to the main-chain in the form of a wager in Ether, kitty ownership transfer, or kitty burn (0x0).</p>
+                    <p>Finality Labs is currently engineering the latest ideas in state-channels theory into a novel turn-style fighting system. This system will be composed of rare collectable heroes that are generated and discovered in a mining process. These heroes may battle for wagers, ownership, or to the death. A market place developed around these will be ran in the gaming district.</p>
                     
                 </div>
                 </Fade>
                 <Fade right
-                      duration='500'
+                      duration={500}
                       distance='100px'
                     >
-                <div className='ckba-logo-outer'>
-                    <img src={logo} alt='CryptoKitties Logo' />
-                </div>
                 </Fade>
                 <Fade left
-                      duration='500'
+                      duration={500}
                       distance='100px'>
                 <div className='works-content'>
                     <h4>RPG</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra tellus nec quam tincidunt imperdiet. Vestibulum consequat, nisl a pulvinar interdum, massa lacus maximus augue, at feugiat odio tellus a urna. Mauris elementum, sem sit amet vulputate cursus, purus ipsum consequat nibh, convallis fermentum lorem ante sed elit. Sed eleifend non urna ac feugiat. Etiam ac pretium nibh. In efficitur magna vel volutpat luctus. Fusce vulputate tellus a tortor vulputate pharetra. Pellentesque dictum enim ut molestie mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer euismod ante eu porttitor tempor. Nunc ut vestibulum mauris. Ut molestie convallis dui ac efficitur. Praesent arcu justo, pretium eget feugiat et, fringilla fermentum ex. Vivamus a sapien justo. Pellentesque eu malesuada sem.</p>
+                    <p>State-channels are good for state where consensus can be unanimously signed off on by the participants of the battle. However it might be nice to allow something like a level up system from the heroes battles. This would require a mechanism to enforce rules on the battle games such that no advantage can be gained by introducing state from the battle back into the arena. We are actively researching RPG style games that may sit on a Plasma chain that enforces rules that keep players honest. More to come on this soon.</p>
                 </div>
                 <div className='works-content'>
                     <h4>Project [CODENAME]</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra tellus nec quam tincidunt imperdiet. Vestibulum consequat, nisl a pulvinar interdum, massa lacus maximus augue, at feugiat odio tellus a urna. Mauris elementum, sem sit amet vulputate cursus, purus ipsum consequat nibh, convallis fermentum lorem ante sed elit. Sed eleifend non urna ac feugiat. Etiam ac pretium nibh. In efficitur magna vel volutpat luctus. Fusce vulputate tellus a tortor vulputate pharetra. Pellentesque dictum enim ut molestie mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer euismod ante eu porttitor tempor. Nunc ut vestibulum mauris. Ut molestie convallis dui ac efficitur. Praesent arcu justo, pretium eget feugiat et, fringilla fermentum ex. Vivamus a sapien justo. Pellentesque eu malesuada sem.</p>
+                    <p>In collaboration with Decentraland, we will jointly build on the metaverse by respecting land units already built in decentraland. This allows for a really interesting collaboration idea we have with DCL and our RPG games we are working on. More on this to be announced later!</p>
                 </div>
                 </Fade>
             </div>
