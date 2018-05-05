@@ -189,11 +189,17 @@ Colors
   box-sizing: border-box;
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: #6b56d0;
- 
   z-index: 2;
-  
+}
+
+.research div:first-child {
+  padding-top: 100px;
+}
+
+.research div:last-child {
+  padding-bottom: 100px;
 }
 
 .research div {

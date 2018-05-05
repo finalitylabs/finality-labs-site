@@ -38,6 +38,18 @@ class Research extends Component {
                 <p>We are prototyping an RPG that will explore an application-specific plasma chain. This requires non-UTXO based state challenges to allow exits to a parent chain. </p>
                 </div>
                 </Fade>
+                <Fade
+                    top
+                    duration={500}
+                    distance='100px'
+                >
+                <div>
+                <h4>Privacy</h4>
+                
+                <p>Since all of the games we build are completely decentralized and exist entirely in the blockchain, user privacy is a concern. While public keys obfuscate identity, they do not provide real anonymity. We are conducting research into methods for addressing this concern through zkSNARKs or RingCT type constructs.
+                </p>
+                </div>
+                </Fade>
                 
             </div>
         );
