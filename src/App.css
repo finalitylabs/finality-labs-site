@@ -211,8 +211,12 @@ Colors
 }
 
 .research p, .research h1, .research h4 {
+  margin: 1.3em;
+}
+
+.research h1 {
   margin: 0;
-  padding: 15px;
+  padding-left: 0.6em;
 }
 
 .research p {
@@ -445,6 +449,11 @@ Colors
     margin: 0;
   }
 
+  .research h1 {
+    margin: 0;
+    padding-left: 20px;
+  }
+
   .works {
     
     align-items: center;
@@ -548,9 +557,9 @@ Colors
     width: 100vw;
   }
 
-  .research h1{
-    width: 90vw;
-    text-align: left;
+  .research h1 {
+    margin: 0;
+    padding-left: 20px;
   }
 
   .works {
