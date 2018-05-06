@@ -433,7 +433,7 @@ Colors
 
   .research {
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -475,16 +475,6 @@ Colors
     height: 100%;
     padding-left: 15px
     
-  }
-
-  .ckba-logo-outer {
-
-    float: right;
-    top: 120px;
-    right: 50px;
-    padding: 0;
-    margin: 0;
-    width: 200px;
   }
 
 
