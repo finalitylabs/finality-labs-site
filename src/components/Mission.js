@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import planet from '../assets/Planet.svg'
+import Astronaut from './Astronaut';
 
 class Mission extends Component {
     render() {
         return (
+            <div>
             <div id='Mission' className='mission'>
             <Fade bottom
                         duration={500}
@@ -24,7 +25,9 @@ class Mission extends Component {
                 </div>
                 
             </Fade>
-            <img src={planet} alt='planet' width='100%'/>
+            
+            </div>
+            <Astronaut className='astronaut'/>
             </div>
         );
     }

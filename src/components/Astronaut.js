@@ -1,6 +1,12 @@
-<svg id='Capa_1' data-name='Capa 1' xmlns='http://www.w3.org/2000/svg'
+import React, { Component } from 'react';
+
+const Astronaut = () => {
+
+        return (
+            <div className='astronaut'>
+                <svg id='Capa_1' data-name='Capa 1' xmlns='http://www.w3.org/2000/svg'
 xmlnsXlink='http://www.w3.org/1999/xlink' viewBox='0 0 1344.18 776.78'>
-    
+    <defs>
         <linearGradient id='Degradado_sin_nombre_38' x1='500.61' y1='507.24' x2='335'
         y2='332.91' gradientUnits='userSpaceOnUse'>
             <stop offset='0' stopColor='#6b56d0' stopOpacity='0' />
@@ -31,7 +37,7 @@ xmlnsXlink='http://www.w3.org/1999/xlink' viewBox='0 0 1344.18 776.78'>
             <stop offset='0.57' stopColor='#675ca7' stopOpacity='0.31' />
             <stop offset='0.74' stopColor='#675ca7' stopOpacity='0.54' />
             <stop offset='0.91' stopColor='#675ca7' stopOpacity='0.84' />
-            <stop offset='1' stopColor='#675ca7' stopOpacity='1'/>
+            <stop offset='1' stopColor='#675ca7' />
         </linearGradient>
         <linearGradient id='Degradado_sin_nombre_28-2' x1='540.3' y1='283.09'
         x2='624.55' y2='283.09' xlinkHref='#Degradado_sin_nombre_28' />
@@ -45,7 +51,7 @@ xmlnsXlink='http://www.w3.org/1999/xlink' viewBox='0 0 1344.18 776.78'>
         x2='337.56' y2='549.52' xlinkHref='#Degradado_sin_nombre_27' />
         <linearGradient id='Degradado_sin_nombre_27-3' x1='1074.44' y1='676.96'
         x2='1003.42' y2='581.45' xlinkHref='#Degradado_sin_nombre_27' />
-    
+    </defs>
     <rect x='-1.53' y='548.99' width='1347.4' height='216.98' fill='#3c1262'
     />
     <path d='M151,458l47.21-21.28,23.46-37.24s51.53-8.33,52-9.84,8.82-33.11,8.82-33.11l18.17-32.22s12.76-1.43,12.25-2.92,1.95-32.2,1.95-32.2l14.74-.36.06,3.74,25.08.13,14.68,25.73L378.16,342l66.5,31L452,388.31l45.83,55,69.83,62.17,50.15,44H70.32L151,458'
@@ -383,3 +389,9 @@ xmlnsXlink='http://www.w3.org/1999/xlink' viewBox='0 0 1344.18 776.78'>
     <path d='M147.23,52.95a26.67,26.67,0,1,0,12.6,35.54,26.7,26.7,0,0,0-12.6-35.54ZM125.05,99.49a24.89,24.89,0,1,1,33.17-11.76,24.92,24.92,0,0,1-33.17,11.76Zm0,0'
     fill='#c19de5' />
 </svg>
+            </div>
+        );
+    }
+
+
+export default Astronaut;

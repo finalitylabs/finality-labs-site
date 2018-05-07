@@ -155,10 +155,13 @@ Colors
   height: 100%;
 }
 
-.mission img {
-  position: relative;
+.astronaut svg{
+
+  margin: 0;
+  padding: 0;
   vertical-align: bottom;
   width: 100vw;
+  height: 100%;
 }
 
 .mission div {
@@ -430,10 +433,7 @@ Colors
     width: 100vw;
   }
 
-  .mission img{
-    vertical-align: bottom;
-    width: 100vh;
-  }
+  
 
   .research {
     position: relative;
@@ -550,12 +550,7 @@ Colors
     padding: 0;
   }
 
-  .mission img {
-    margin-top: 10px;
-    position: relative;
-    vertical-align: bottom;
-    width: 100vw;
-  }
+
 
   .research h1 {
     margin: 0;
