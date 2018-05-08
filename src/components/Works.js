@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 class Works extends Component {
     render() {
         return (
-            <div id='Works' className='works'>
+            <div id='Development' className='works'>
                 <Fade left
                       duration={500}
                       distance='100px'>

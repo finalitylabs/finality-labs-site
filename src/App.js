@@ -81,7 +81,7 @@ class App extends Component {
             <a onClick={() => this.closeMenu()} href='#Main'>Home</a>
             <a onClick={() => this.closeMenu()} href='#Mission'>Mission</a>
             <a onClick={() => this.closeMenu()} href='#Research'>Research</a>
-            <a onClick={() => this.closeMenu()} href='#Works'>Works</a>
+            <a onClick={() => this.closeMenu()} href='#Development'>Development</a>
             <a onClick={() => this.closeMenu()} href='#Team'>Team</a>
             <a onClick={() => this.closeMenu()} href='#Join'>Join</a>
         </Menu>
