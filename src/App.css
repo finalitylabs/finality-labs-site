@@ -1,22 +1,24 @@
 /*
  
 Colors
-#3b1362 - Midnight Blue
-#28c1ba - Light Sea Green
-#c19de5 - Medium Purple
-#433960 - Dark Slate Blue
-#6b56d0 - Slate Blue
+#37284e - Darkest Purple
+#3c1660 - Medium Purple
+#6b5acd - Light Purple
+#ce38ff - Hot Pink
+#c199e5 - Light Pink
+#2ff6e6 - Teal
+#06edfd - Cyan
 
 */
 .purp1, 
 .purp2, 
 .purp3 {
-  fill:#675ca7;
+  fill:#6b56d0;
 }
 .teal1, 
 .teal2, 
 .teal3 {
-  fill:#33bcb7;
+  fill:#2FF6E6;
 }
 
 .intro-outer{
@@ -68,7 +70,7 @@ Colors
 
 .menu a {
   text-decoration: none;
-  color: white;
+  color: #37284e;
   margin: 1em;
   margin-top: 2em;
 }
@@ -84,7 +86,7 @@ Colors
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #28c1ba;
+  background: #2FF6E6;
 }
 
 /* Position and sizing of clickable cross button */
@@ -95,12 +97,12 @@ Colors
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: white;
+  background: #37284e;
 }
 
 /* General sidebar styles */
 .bm-menu {
-  background: #28c1ba;
+  background: #2FF6E6;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -119,7 +121,7 @@ Colors
 /* Styling of overlay */
 .bm-overlay {
   height: 100vh;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 1);
 }
 
 /* .nav {
