@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 
+import github from '../assets/Social/github.png'
 
 class Works extends Component {
     render() {
@@ -11,6 +12,17 @@ class Works extends Component {
                       distance='100px'>
                 <div className='works-content'>
                     <h1>Development</h1>
+                    <h2>Tools</h2>
+                    <a href='https://github.com/layer2lib/js-layer2lib' rel="noopener noreferrer" target='_blank'><h4>Layer2lib <img src={github} width='20px' alt='Github'/></h4></a>
+                    
+                    <p>Finality Labs and SpankChain are building a general purpose Ethereum layer 2 scalability library to help other dApps quickly boot up their own scalability solutions for payment networks, games, and more.</p>
+                    
+                </div>
+                </Fade>
+                <Fade left
+                      duration={500}
+                      distance='100px'>
+                <div className='works-content'>
                     <h2>Games</h2>
                     <h4>Hero Fighter (Turn-based State-channel game)</h4>
                     
