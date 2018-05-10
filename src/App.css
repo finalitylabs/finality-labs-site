@@ -157,8 +157,7 @@ Colors
   height: 100%;
 }
 
-.astronaut svg{
-
+.astronaut-animation svg{
   margin: 0;
   padding: 0;
   vertical-align: bottom;
@@ -573,10 +572,6 @@ Colors
   .works {
    
     align-items: center;
-  }
-
-  .works img {
-    display: none;
   }
 
   .partners {

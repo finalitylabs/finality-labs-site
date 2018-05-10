@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import Astronaut from './Astronaut';
+import AstroAnimation from './Astronaut-animation';
+
 
 class Mission extends Component {
     render() {
@@ -27,7 +28,7 @@ class Mission extends Component {
             </Fade>
             
             </div>
-            <Astronaut className='astronaut'/>
+            <AstroAnimation className='astro-animation'/>
             </div>
         );
     }
