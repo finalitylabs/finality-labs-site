@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
-import Loader2 from './Loader2';
-
+import logo from '../assets/Logos/FL_Logo.png';
 
 
 class Main extends Component {
@@ -11,7 +9,7 @@ class Main extends Component {
             <div id='Main' className='main'>
                 
                 <div className='logo'>
-                    <Loader2 />
+                    <img src={logo} alt='Finality-Labs-Logo' />
                 </div>
 
                 

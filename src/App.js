@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { AppStyled } from './App.style'
 
-import Loader from './components/Loader';
+import Loader2 from './components/Loader2';
 import Main from './components/Main';
 import Mission from './components/Mission';
 import Works from './components/Works';
@@ -67,7 +67,7 @@ class App extends Component {
     
 
       if(loading){
-        return <Loader className='loader' />
+        return <Loader2 className='loader' />
       }
 
     return (
