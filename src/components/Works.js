@@ -26,7 +26,7 @@ class Works extends Component {
                     <h2>Games</h2>
                     <h4>Hero Fighter (Turn-based State-channel game)</h4>
                     
-                    <p>Finality Labs is currently engineering the latest ideas in state-channels theory into a novel turn-style fighting system. This system will be composed of rare collectable heroes that are generated and discovered in a mining process. These heroes may battle for wagers, ownership, or to the death. A market place developed around these will be ran in the gaming district.</p>
+                    <p>Finality Labs is currently engineering the latest ideas in state-channels theory into a novel turn-style fighting system. This system will be composed of rare collectable heroes that are generated and discovered in a mining process. These heroes may battle for wagers, ownership, or to the death. A market place developed around these will be run in the gaming district.</p>
                     
                 </div>
                 </Fade>
