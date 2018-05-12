@@ -46,26 +46,27 @@ Colors
 
 
 .logo {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  margin: 50px;
   width: 100vw;
-  height: 100vh;;
+  height: 100vh;
   
-
 }
 
 .logo img {
-  width: 250px;
+  width: 150px;
   transition: all 400ms ease-in-out;
 }
 
-.lab {
+.lab-animation {
   position: absolute;
+  width: 75vw;
   bottom: 0;
   right: 0;
-  
+}
+
+.lab-animation svg {
+  width: 100vw;
 }
 
 .menu a {

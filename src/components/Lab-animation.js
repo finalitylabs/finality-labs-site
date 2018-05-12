@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Lottie from 'react-lottie';
-import * as animationData from '../assets/animations/logo.json'
+import * as animationData from '../assets/animations/lab.json';
 
-import '../App.css'
-
-class Loader2 extends Component {
+class LabAnimation extends Component {
     constructor(props) {
         super(props);
         this.state = {isStopped: false, isPaused: false};
@@ -12,22 +10,21 @@ class Loader2 extends Component {
      
       render() {
         const defaultOptions = {
-          loop: false,
+          loop: true,
           autoplay: true, 
           animationData: animationData,
         };
 
     
         return (
-            <div className='intro-outer'>
+            <div className='lab-animation'>
                 <Lottie options={defaultOptions}
               
               isStopped={this.state.isStopped}
-              isPaused={this.state.isPaused}
-              width='300px'/>
+              isPaused={this.state.isPaused}/>
             </div>
         );
     }
 }
 
-export default Loader2;
+export default LabAnimation;

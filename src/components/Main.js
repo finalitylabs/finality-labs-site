@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../assets/Logos/FL_Logo.png';
+import LabAnimation from './Lab-animation';
 
 
 class Main extends Component {
@@ -11,6 +12,8 @@ class Main extends Component {
                 <div className='logo'>
                     <img src={logo} alt='Finality-Labs-Logo' />
                 </div>
+
+                <LabAnimation />
 
                 
                 
