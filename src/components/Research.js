@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import Tunnel from './Tunnel';
 
 class Research extends Component {
     render() {
         return (
             <div id='Research' className='research'>
+                <Tunnel />
                 <Fade
                     top
                     duration={500}
@@ -50,6 +52,7 @@ class Research extends Component {
                 </p>
                 </div>
                 </Fade>
+                
                 
             </div>
         );

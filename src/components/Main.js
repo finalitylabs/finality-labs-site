@@ -12,9 +12,9 @@ class Main extends Component {
                 <div className='logo'>
                     <img src={logo} alt='Finality-Labs-Logo' />
                 </div>
-
-                <LabAnimation />
-
+                {/* <div className='lab-outer'>
+                    <LabAnimation />
+                </div> */}
                 
                 
             </div>
