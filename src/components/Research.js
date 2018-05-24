@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import Tunnel from './Tunnel';
+import ResearchTop from './ReseachTop';
 
 class Research extends Component {
     render() {
         return (
-            <div id='Research' className='research'>
-                <Tunnel />
+            <div id='Research' className='research-outer'>
+                <ResearchTop />
+                <div className='research'>
                 <Fade
                     top
                     duration={500}
@@ -53,7 +54,7 @@ class Research extends Component {
                 </div>
                 </Fade>
                 
-                
+                </div>
             </div>
         );
     }
