@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import ResearchTop from './ReseachTop';
 
+
 class Research extends Component {
     render() {
         return (

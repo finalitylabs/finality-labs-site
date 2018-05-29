@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 
 import github from '../assets/Social/github.png'
-import Underground from './Underground';
+import ResearchBottom from './ReearchBottom';
 
 class Works extends Component {
     render() {
         return (
             <div id='Development' className='works'>
-                <Underground />
+                <ResearchBottom />
                 <Fade left
                       duration={500}
                       distance='100px'>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../assets/Logos/FL_Logo.png';
-import LabAnimation from './Lab-animation';
+// import LabAnimation from './Lab-animation';
 
 
 class Main extends Component {
