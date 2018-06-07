@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 
 import github from '../assets/Social/github.png'
-import ResearchBottom from './ReearchBottom';
+import ResearchBottom from './ResearchBottom';
 
 class Works extends Component {
     render() {
