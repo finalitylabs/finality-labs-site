@@ -162,7 +162,7 @@ Colors
 
 .mission {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   position: relative;
   box-sizing: border-box;
@@ -172,6 +172,8 @@ Colors
   width: 100vw;
   height: 100%;
 }
+
+
 
 .astronaut-animation svg{
   margin: 0;
@@ -458,7 +460,8 @@ Colors
     width: 100vw;
     height: auto;
   }
-
+  
+  
   .mission {
     position: relative;
     height: 100%;
@@ -466,16 +469,19 @@ Colors
     margin: 0;
     padding: 0;
   }
-
- 
-
+  
+  .mission {
+    flex-direction: column;
+  }
+  
+  
   .mission p, .mission h1 {
     text-align: left;
     width: 87vw;
     margin:0;
     margin-right: 0;
   }
-
+  
   .mission div {
     display: flex;
     flex-direction: column;
@@ -484,7 +490,10 @@ Colors
     margin: 0;
     width: 100vw;
   }
-
+  
+  .mission div svg {
+    max-width: 50%;
+  }
   
 
   .research {

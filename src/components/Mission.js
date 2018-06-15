@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import AstroAnimation from './Astronaut-animation';
+import SpaceStation from './SpaceStation';
 
 
 class Mission extends Component {
@@ -26,6 +27,7 @@ class Mission extends Component {
                 </div>
                 
             </Fade>
+            <SpaceStation />
             
             </div>
             <AstroAnimation className='astro-animation'/>
