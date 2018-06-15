@@ -9,6 +9,7 @@ class Mission extends Component {
         return (
             <div>
             <div id='Mission' className='mission'>
+            <SpaceStation />
             <Fade bottom
                         duration={500}
                         distance='100px'
@@ -27,7 +28,6 @@ class Mission extends Component {
                 </div>
                 
             </Fade>
-            <SpaceStation />
             
             </div>
             <AstroAnimation className='astro-animation'/>
