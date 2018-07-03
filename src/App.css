@@ -30,6 +30,8 @@ Colors
   
 }
 
+
+
 .intro-outer svg {
 
   width: 300px;
@@ -72,14 +74,8 @@ Colors
   justify-content: center;
 }
 .lab-animation {
-  position: relative;
   width: 90vw;
-
-
-}
-
-.lab-animation svg {
-  width: 100vw;
+  padding-bottom: 40px;
 }
 
 .menu a {
@@ -250,7 +246,7 @@ Colors
   z-index: 2;
 }
 
-.research div:first-child {
+.research {
   padding-top: 150px;
 }
 
@@ -261,7 +257,6 @@ Colors
 .research div {
   width: 100vw;
   text-align: left;
-  
   width: 50vw;
   
 }
@@ -279,6 +274,16 @@ Colors
   margin-bottom: 60px;
 }
 
+.tools-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools-animation {
+  height: 90vh;
+}
+
 
 .works {
   display: flex;
@@ -287,14 +292,15 @@ Colors
   justify-content: center;
   position: relative;
   margin: 0;
-  padding: 0;
-  width: 100vw;
+  padding-left: 100px;
+  padding-right: 100px;
   min-height: 100%;
   
 }
 
 .works-content {
-  margin-top: 40px;
+  align-self: center;
+  margin-top: 60px;
   margin-bottom: 60px;
 }
 
@@ -337,6 +343,8 @@ Colors
   justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .games-inner {
@@ -435,6 +443,7 @@ Colors
 
 .partners-outer {
   text-align: center;
+  z-index: 5;
 }
 
 .partners-outer h1{
@@ -448,8 +457,9 @@ Colors
   align-items: center;
   justify-content: center;
   width: 100vw;
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 100px;
+
 }
 
 .join {
@@ -462,12 +472,18 @@ Colors
   
 }
 
+
 /* Media Queries */
 
 @media only screen and (max-width: 768px){
 
 
-  
+  .tools-animation {
+    display: none;
+  }
+
+
+
   .logo {
     display: flex;
     align-items: center;
@@ -521,16 +537,15 @@ Colors
   .mission div svg {
     max-width: 50%;
   }
-  
+
 
   .research {
     position: relative;
     height: 100%;
     width: 100vw;
     margin: 0;
-    padding: 0;
-  }
-  
+    padding-top: 50px;
+  }  
 
   .research div{
     width: 90vw;
@@ -542,15 +557,14 @@ Colors
     padding-left: 20px;
   }
 
+
   .works {
-    
     align-items: center;
     margin: 0;
     padding: 0;
   }
 
   .works-content {
-   
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -572,6 +586,14 @@ Colors
     height: 100%;
     padding-left: 15px
     
+  }
+
+  .works-content:first-child {
+    padding-top: 0px;
+  }
+
+  .works-content:last-child {
+    padding-bottom: 0px;
   }
 
   .games-inner {

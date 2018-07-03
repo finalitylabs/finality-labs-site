@@ -8,12 +8,14 @@ import discord from '../assets/Social/discord.png'
 import sc from '../assets/Partners/SpankChain_Logo.png';
 import dzx from '../assets/Partners/district0X_Logo-white.png';
 import dl from '../assets/Partners/Decentraland_Logo-white.png';
+import LabAnimation from './Lab-animation';
 
 
 class Join extends Component {
     render() {
         return (
             <div id='Join' className='join-outer'>
+            <LabAnimation />
                 <div className='partners-outer'>
                     <h1>Our Supporters</h1>
                     <div className='partners'>

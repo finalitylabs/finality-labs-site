@@ -4,24 +4,28 @@ import Fade from 'react-reveal/Fade';
 import github from '../assets/Social/github.png'
 import ResearchBottom from './ResearchBottom';
 import SpaceRobot from './SpaceRobot';
+import ToolsAnimation from './Tools-animation';
 
 class Works extends Component {
     render() {
         return (
             <div id='Development' className='works'>
                 <ResearchBottom />
+                <div className='tools-outer'>
+                <ToolsAnimation />
                 <Fade left
                       duration={500}
                       distance='100px'>
-                <div className='works-content'>
-                    <h1>Development</h1>
-                    <h2>Tools</h2>
-                    <a href='https://github.com/layer2lib/js-layer2lib' rel="noopener noreferrer" target='_blank'><h4>Layer2lib <img src={github} width='20px' alt='Github'/></h4></a>
-                    
-                    <p>Finality Labs and SpankChain are building a general purpose Ethereum layer 2 scalability library to help other dApps quickly boot up their own scalability solutions for payment networks, games, and more.</p>
-                    
-                </div>
+                    <div className='works-content'>
+                        <h1>Development</h1>
+                        <h2>Tools</h2>
+                        <a href='https://github.com/layer2lib/js-layer2lib' rel="noopener noreferrer" target='_blank'><h4>Layer2lib <img src={github} width='20px' alt='Github'/></h4></a>
+                        
+                        <p>Finality Labs and SpankChain are building a general purpose Ethereum layer 2 scalability library to help other dApps quickly boot up their own scalability solutions for payment networks, games, and more.</p>
+                        
+                    </div>
                 </Fade>
+                </div>
                 <div className='games-container'>
                     <div className='games-inner'>
                         
@@ -51,8 +55,8 @@ class Works extends Component {
                             <h4>Project [CODENAME]</h4>
                             <p>In collaboration with Decentraland, we will jointly build on the metaverse by respecting land units already built in decentraland. This allows for a really interesting collaboration idea we have with DCL and our RPG games we are working on. More on this to be announced later!</p>
                         </div>
-                        </Fade>
                     
+                        </Fade>
                     </div>
                     <SpaceRobot className='space-robot'/>
                 </div>
