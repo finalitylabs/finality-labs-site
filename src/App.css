@@ -74,7 +74,7 @@ Colors
   justify-content: center;
 }
 .lab-animation {
-  width: 90vw;
+  width: 65vw;
   padding-bottom: 40px;
 }
 
@@ -502,6 +502,11 @@ Colors
   .lab {
     width: 100vw;
     height: auto;
+  }
+
+  .lab-animation {
+    width: 80vw;
+    padding-bottom: 20px;
   }
   
   

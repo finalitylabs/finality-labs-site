@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import ResearchTop from './ResearchTop';
 
+import * as setPaymentChannelPDF from '../assets/PDF/SetPaymentChannels.pdf';
 
 class Research extends Component {
-    
+
     render() {
-       
+    
         return (
             <div id='Research' className='research-outer'>
                 <ResearchTop />
@@ -28,11 +29,11 @@ class Research extends Component {
                     distance='100px'
                 >
                     <div style={{display: 'flex', flexWrap: 'wrap'}}>
-                        <div style={{flex: 1, minWidth: '250px'}}>
+                        <div style={{flex: 1, minWidth: '250px', textAlign: 'right'}}>
                             <h4>Payment Channel Hubs</h4>
                             <p>The Set-Payment paper details a hub and spoke model inspired by virtual channels that are built for human activity (i.e. tipping).
                             </p>
-                            <a href='#' rel='noopener noreferrer' style={{marginLeft: '20px', background: 'white', color: '#6b5acd', border: 'none', padding: '10px', cursor: 'pointer', textDecoration: 'none'}}>View PDF</a>
+                            <a href={setPaymentChannelPDF} rel='noopener noreferrer' target="_blank" style={{marginRight: '20px', background: 'white', color: '#6b5acd', border: 'none', padding: '10px', cursor: 'pointer', textDecoration: 'none'}}>View PDF</a>
                         </div>
                         <div style={{flex: 1, minWidth: '250px'}}>
                             <h4>General State Channels</h4>
