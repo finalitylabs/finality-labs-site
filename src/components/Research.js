@@ -17,7 +17,7 @@ class Research extends Component {
                     duration={500}
                     distance='100px'
                 >
-                <div>
+                <div className='research-inner'>
                     <h1>Research</h1>
                 
                     <p>Advanced Applications on the blockchain will not work without immediate solutions to how these systems will be run in a cost-effective and decentralized way. A core component of Finality Labs is the research and development done into scaling Ethereum and other blockchain ledgers.</p>
@@ -28,18 +28,18 @@ class Research extends Component {
                     duration={500}
                     distance='100px'
                 >
-                    <div style={{display: 'flex', flexWrap: 'wrap'}}>
-                        <div style={{flex: 1, minWidth: '250px', textAlign: 'right'}}>
+                    <div className='pdf-outer' >
+                        <div className='pdf-left' >
                             <h4>Payment Channel Hubs</h4>
                             <p>The Set-Payment paper details a hub and spoke model inspired by virtual channels that are built for human activity (i.e. tipping).
                             </p>
-                            <a href={setPaymentChannelPDF} rel='noopener noreferrer' target="_blank" style={{marginRight: '20px', background: 'white', color: '#6b5acd', border: 'none', padding: '10px', cursor: 'pointer', textDecoration: 'none'}}>View PDF</a>
+                            <a href={setPaymentChannelPDF} rel='noopener noreferrer' target="_blank" style={{background: 'white', color: '#6b5acd', border: 'none', padding: '10px', cursor: 'pointer', textDecoration: 'none'}}>View PDF</a>
                         </div>
-                        <div style={{flex: 1, minWidth: '250px'}}>
+                        <div className='pdf-right' >
                             <h4>General State Channels</h4>
                         
                             <p>The Set-General paper outlines our protocol for arbitrarily complex turn based state systems to be ran over provider nodes.</p>
-                            <a href='#' rel='noopener noreferrer' style={{ marginLeft: '20px', background: 'white', color: '#6b5acd', border: 'none', padding: '10px', cursor: 'pointer', textDecoration: 'none'}}>View PDF</a>
+                            <a href='#' rel='noopener noreferrer' style={{background: 'white', color: '#6b5acd', border: 'none', padding: '10px', cursor: 'pointer', textDecoration: 'none'}}>View PDF</a>
                         </div>
                     </div>
                 </Fade>
@@ -48,7 +48,7 @@ class Research extends Component {
                     duration={500}
                     distance='100px'
                 >
-                <div>
+                <div className='research-plasma'>
                 <h4>Plasma</h4>
                 
                 <p>We are prototyping an RPG that will explore an application-specific plasma chain. This requires non-UTXO based state challenges to allow exits to a parent chain. </p>

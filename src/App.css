@@ -254,11 +254,16 @@ Colors
   padding-bottom: 100px;
 }
 
-.research div {
+.research-inner {
+  width: 100vw;
+  text-align: left;
+  width: 50vw; 
+}
+
+.research-plasma {
   width: 100vw;
   text-align: left;
   width: 50vw;
-  
 }
 
 .research p, .research h1, .research h4 {
@@ -272,6 +277,24 @@ Colors
 
 .research p {
   margin-bottom: 60px;
+}
+
+.pdf-outer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+}
+
+.pdf-left {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.pdf-right {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
 }
 
 .tools-outer {
@@ -560,6 +583,19 @@ Colors
   .research h1 {
     margin: 0;
     padding-left: 20px;
+  }
+
+  .pdf-left {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .pdf-right {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
   }
 
 
