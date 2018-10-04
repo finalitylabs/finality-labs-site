@@ -53,7 +53,7 @@ class Works extends Component {
                             distance='100px'>
                         <div className='works-content'>
                             <h4>Metaverse works</h4>
-                            <p>In collaboration with Decentraland, we will jointly build on the metaverse by respecting land units already built in decentraland. This allows for an interesting collaboration idea we have with DCL and state-channel logic similar to that running E.T.H. battles where. More on this to be announced later!</p>
+                            <p>In collaboration with Decentraland and other NFT land systems we are collaborating on ideas of state-channel logic similar to that running E.T.H. battles but using land units or other objects. More on this to be announced later!</p>
                         </div>
                     
                         </Fade>
