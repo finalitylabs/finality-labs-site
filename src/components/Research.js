@@ -20,7 +20,7 @@ class Research extends Component {
                 <div className='research-inner'>
                     <h1>Research</h1>
                 
-                    <p>Advanced Applications on the blockchain will not work without immediate solutions to how these systems will be run in a usable, cost-effective way while maintaining the properties of decentralization. A core component of Finality Labs is the research and development done into scaling Ethereum and other blockchain ledgers. We examine independent systems to determine what solutions if any are applicable and create protocols when possible.</p>
+                    <p>Advanced applications on the blockchain will not work without immediate solutions to how these systems will be run in a usable, cost-effective way while maintaining the properties of decentralization. A core component of Finality Labs is the research and development done into scaling Ethereum and other blockchain ledgers. We examine independent systems to determine what solutions, if any, are applicable and create protocols when possible.</p>
                 </div>
                 </Fade>
                 <Fade
@@ -38,7 +38,7 @@ class Research extends Component {
                         <div className='pdf-right' >
                             <h4>Applied State Channels and Plasma (WIP)</h4>
                         
-                            <p>This paper will outline our protocols for complex state systems that address common blockchain applications. A state-channles + plasma approach to payments, exchanges, and games</p>
+                            <p>This paper will outline our protocols for complex state systems that address common blockchain applications, a state-channels and Plasma approach to payments, exchanges, and games.</p>
                             <a href='https://docs.google.com/document/d/15LdH-YL3syBHdHlwCfUHou6XFvg5lXBKtrAFp5bG1Pc' rel='noopener noreferrer' style={{background: 'white', color: '#6b5acd', border: 'none', padding: '10px', cursor: 'pointer', textDecoration: 'none'}}>View DOC</a>
                         </div>
                     </div>

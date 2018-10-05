@@ -34,9 +34,9 @@ class Works extends Component {
                             distance='100px'>
                         <div className='works-content'>
                             <h2>Games</h2>
-                            <h4>Eternal Time Heroes (E.T.H. A turn-based state-channel game)</h4>
+                            <h4>Eternal Time Heroes (E.T.H. | A turn-based state-channel game)</h4>
                             
-                            <p>Finality Labs is currently engineering the latest ideas in state-channels and plasma theory into a novel turn-style fighting system. This system will be composed of rare collectable heroes that are generated and discovered by winning battles. These heroes may battle for wagers, ownership, or to the death as we program advanced logic  off-chain that settles to NFT swaps.</p>
+                            <p>Finality Labs is currently engineering the latest ideas in state-channels and Plasma theory into a novel turn-style fighting system. This system will be composed of rare collectable heroes that are generated and discovered by winning battles. Players may battle these heroes for wagers, ownership, or to the death as we program advanced logic  off-chain that settles to NFT swaps.</p>
                             
                         </div>
                         </Fade>
@@ -52,8 +52,8 @@ class Works extends Component {
                             duration={500}
                             distance='100px'>
                         <div className='works-content'>
-                            <h4>Metaverse works</h4>
-                            <p>In collaboration with Decentraland and other NFT land systems we are collaborating on ideas of state-channel logic similar to that running E.T.H. battles but using land units or other objects. More on this to be announced later!</p>
+                            <h4>Metaverse Works</h4>
+                            <p>In collaboration with Decentraland and other NFT land systems, we are collaborating on ideas of state-channel logic similar to that running E.T.H. battles but using land units or other objects. More on this to be announced later!</p>
                         </div>
                     
                         </Fade>
