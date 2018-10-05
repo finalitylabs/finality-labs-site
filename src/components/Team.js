@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
 import nathan from '../assets/Team/Nathan.png';
-import tiffany from '../assets/Team/Tiffany.png';
+import tiffany from '../assets/Team/Tiffany.jpg';
 import will from '../assets/Team/Will.png';
 import jonathan from '../assets/Team/Jonathan.png';
 import adrian from '../assets/Team/Adrian.png';
 import fede from '../assets/Team/Federico.png';
 import james from '../assets/Team/James.png';
+import jasper from '../assets/Team/Jasper.png';
 
 class Team extends Component {
     render() {
@@ -25,9 +26,9 @@ class Team extends Component {
                         <p>Channel Manager</p>
                     </div>
                     <div className='card'>
-                        <img src={jonathan} className='image clip' width='150px' alt='Jonathan Dunlap'/>
-                        <p><strong>Jonathan Dunlap</strong></p>
-                        <p>Lead Optimist Alchemist</p>
+                        <img src={jasper} className='image clip' width='150px' alt='Jonathan Dunlap'/>
+                        <p><strong>Jasper De Gooijer</strong></p>
+                        <p>Web 3.0 Builder</p>
                     </div>
                     <div className='card'>
                         <img src={will} className='image clip' width='150px' alt='Will Vatcher'/>
