@@ -115,6 +115,7 @@ Colors
   background: #2FF6E6;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  overflow: hidden;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -433,8 +434,17 @@ Colors
   height: 200px;
 }
 
+.five {
+  margin-top: -5px;
+}
+
+
 .card img {
   margin-bottom: 20px;
+}
+
+.five img {
+        margin-bottom: 15px;
 }
 
 .card p:nth-child(2) {
@@ -446,7 +456,7 @@ Colors
 .card p:nth-child(3) {
   margin-top: 0px;
   padding: 0;
-  line-height: 24px;
+  line-height: 26px;
 }
 
 .clip {

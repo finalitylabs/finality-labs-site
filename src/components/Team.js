@@ -25,7 +25,7 @@ class Team extends Component {
                         <p><strong>James Young</strong></p>
                         <p>Channel Manager</p>
                     </div>
-                    <div className='card'>
+                    <div className='card five'>
                         <img src={jasper} className='image clip' width='150px' alt='Jasper De Gooijer'/>
                         <p><strong>Jasper De Gooijer</strong></p>
                         <p>Web 3.0 Builder</p>
