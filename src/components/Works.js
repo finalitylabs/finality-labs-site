@@ -36,9 +36,8 @@ class Works extends Component {
                             <h2>Games</h2>
                             <h4>Eternal Time Heroes (E.T.H. | A turn-based state-channel game)</h4>
                             
-                            <p>Finality Labs is currently engineering the latest ideas in state-channels and Plasma theory into a novel turn-style fighting system. This system will be composed of rare collectable heroes that are generated and discovered by winning battles. Players may battle these heroes for wagers, ownership, or to the death as we program advanced logic  off-chain that settles to NFT swaps.</p>
-                            
-                        </div>
+                            <p>Finality Labs is currently engineering the latest ideas in state-channels and Plasma theory into a novel turn-style fighting system. This system will be composed of rare collectable heroes that are generated and discovered by winning battles. Players may battle these heroes in cryptographically secure channels programmed with advanced off-chain logic that settles to win/losses contributing to a global score.</p>                    
+                        </div>    
                         </Fade>
                         <Fade left
                             duration={500}
