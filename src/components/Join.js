@@ -19,12 +19,8 @@ class Join extends Component {
                 <div className='partners-outer'>
                     <h1>Our Supporters</h1>
                     <div className='partners'>
-                        <a href='https://spankchain.com/' rel="noopener noreferrer" target='_blank'>
-                            <img src={sc} alt ='' width='150px' /></a>
                         <a href='https://district0x.io/' rel="noopener noreferrer" target='_blank'>
                             <img src={dzx} alt ='' width='150px' /></a>
-                        <a href='https://decentraland.org/' rel="noopener noreferrer" target='_blank'>
-                            <img src={dl} alt ='' width='150px' /></a>
                     </div>
                 </div>
                 <div className='join'>
