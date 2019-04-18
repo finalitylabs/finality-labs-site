@@ -1,4 +1,4 @@
-# Finality Labs Site
+# Finality Labs Site.
 
 This is the official repository for the Finality Labs main site.
 
